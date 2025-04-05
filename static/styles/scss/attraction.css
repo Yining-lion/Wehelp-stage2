@@ -139,6 +139,9 @@ html, body {
   padding: 10px;
   cursor: pointer;
 }
+.navigation_container .navigation .navigation_right .signout_text {
+  display: none;
+}
 
 .overlay {
   position: fixed;
@@ -210,6 +213,9 @@ html, body {
   padding: 15px;
   border: 1px solid #CCCCCC;
   border-radius: 5px;
+}
+.dialog_container .message {
+  display: none;
 }
 
 @media (max-width: 1200px) {

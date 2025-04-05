@@ -1,9 +1,11 @@
-import {renderHeader} from "./header.js"
+import {renderHeader, userAuthEvents, checkSignInStatus} from "./header.js"
 import {escapeHTML} from "./escapeHTML.js"
 
 const $ = (selector) => document.querySelector(selector);
 
 renderHeader();
+userAuthEvents();
+checkSignInStatus();
 renderMRTList();
 loadAttractions(0);
 $(".arrow_left").addEventListener("click", () => scrollMRTList("left"))

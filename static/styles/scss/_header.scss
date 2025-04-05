@@ -40,9 +40,14 @@ html,body {
             display: flex;
             color: v.$secondary-color-gray-70;
             margin-right: 10px;
+
             p {
                 padding: 10px;
                 cursor: pointer;
+            }
+            
+            .signout_text {
+                display: none;
             }
         }
     }
@@ -123,7 +128,12 @@ html,body {
             border-radius: 5px;
         }
     }
+
+    .message {
+        display: none;
+    }
 }
+
 
 @media (max-width: 1200px) {
     .navigation {
